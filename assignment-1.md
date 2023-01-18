@@ -1,3 +1,4 @@
+images
 # **Assignment No. 1 - Logging and Rollback**
 
 # **Description**
@@ -7,7 +8,7 @@ As we are focusing on the conceptual side, we will not be using MariaDB or any o
 
 To simplify the problem, we will focus on the accounts of Emma Frost, BankID number = 3. Below an image of the CUSTOMER DB:
 
-![CUSTOMER Relation](https://assignment-1/images/customer.png)
+![CUSTOMER Relation](https://github.com/oappelmru/MRU-COMP4522-Assignments.git/images/customer.png)
 
 #**Transaction to be executed**
 Emma will be moving $100,000 from her checking account (312345C) to her Savings Account (312345S).
