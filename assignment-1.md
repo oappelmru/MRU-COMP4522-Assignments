@@ -36,9 +36,9 @@ For your simulation, Emma's transaction is satisfactorily completed ONLY when bo
 
 Below the schemas for the ACCOUNT and ACCOUNT_BALANCE Relations (Tables):
 
-![ACCOUNT Relation](https://assignment-1/images/account.png)
+![ACCOUNT Relation](account.png)
 
-![ACCOUNT_BALANCE Relation](https://assignment-1/images/account_balance.png)
+![ACCOUNT_BALANCE Relation](account_balance.png)
 
 - COMMIT: as we know, a COMMIT is the signal we send to the RDBMS, telling it that a logical-transaction has been executed successfully. Hence, it is time to make the changes made to the Database persistent (save them to secondary storage).
 
