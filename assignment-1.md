@@ -5,18 +5,18 @@ You are going to simulate a logging and rollback system for a simple database th
 
 As we are focusing on the conceptual side, we will not be using MariaDB or any other RDBMS. After all, the latter include in their design this logging and rollback capabilities.
 
-To simplify the problem, we will focus on the accounts of Emma Frost, BankID number = 3. Below an image of the CUSTOMER DB:
+To simplify the problem, we will focus on the accounts of Emma Frost, BankID = 3. Below an image of the CUSTOMER DB:
 
 ![CUSTOMER Relation](customer.png)
 
-#**Transaction to be executed**
+# **Transaction to be executed**
 Emma will be moving $100,000 from her checking account (312345C) to her Savings Account (312345S).
 
-BEFORE Transaction
+**BEFORE Transaction**
 Checking Balance = 786324
 Savings Balance = 987613
 
-AFTER Transaction
+**AFTER Transaction**
 Checking Balance = 686324
 Savings Balance = 1087613
 
