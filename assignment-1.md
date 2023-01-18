@@ -1,4 +1,3 @@
-images
 # **Assignment No. 1 - Logging and Rollback**
 
 # **Description**
@@ -27,12 +26,12 @@ However, this transaction is divided into two different operations:
 1. Updating Emma's balance for her Checking Account (subtracting the amount to be transferred out)
 2. Updating Emma's balance for her Savings Account (adding to the balance the incoming money transfer)
 
-For your simulation, Emma's transaction is satisfactorily completed ONLY when both operations (1 and 2) above are completed!
+For your simulation, Emma's transaction is satisfactorily completed ONLY when both operations -1 and 2 above, are completed!
 
 # **Simulation Requirements**
 - Understanding whether your logging & rollback system is successful, will depend on 2 aspects:
-1. The contents of your logging & rollback data structure
-2. The status of the values for Checking & Savings of the balances relation (table)
+   1. The contents of your logging & rollback data structure
+   2. The status of the values for Checking & Savings of the balances relation (table)
 
 Below the schemas for the ACCOUNT and ACCOUNT_BALANCE Relations (Tables):
 
@@ -40,7 +39,7 @@ Below the schemas for the ACCOUNT and ACCOUNT_BALANCE Relations (Tables):
 
 ![ACCOUNT_BALANCE Relation](account_balance.png)
 
-- COMMIT: as we know, a COMMIT is the signal we send to the RDBMS, telling it that a logical-transaction has been executed successfully. Hence, it is time to make the changes made to the Database persistent (save them to secondary storage).
+- COMMIT: as we know, a COMMIT is the signal we send to the RDBMS, telling it that a logical-transaction has been executed successfully. Hence, it is time to make the changes performed to the Database, persistent (save them to secondary storage).
 
 - In our simulation, Main_Memory corresponds to the data structure you are manipulating in your code to make a given  transaction happen.
 
