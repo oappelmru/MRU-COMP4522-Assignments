@@ -66,7 +66,7 @@ With regard to fixing database inconsistencies that may have been introduced bec
 - present your Logging-Rollback system with the right values for the incomplete operation to be reverted.
 
 If instead, you decide to:
-- "automatically" restore the database to a a healthy state using your Rollback System, and
+- "automatically" restore the database to a "healthy state" using your Rollback System, AND
 - show your Logging-Rollback system status, too,
 
 then you will be given 5 additional points for your work.
