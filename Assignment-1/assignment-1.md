@@ -82,9 +82,9 @@ The architecture for this "simulation" is as follows:
 As you examine the diagram above, please consider the following:
 
 - The .csv files representing the Database Tables should be read to main memory and manipulated there using a data structure appropriate for the job at hand (array, list, etc.)
-- Once a COMMIT is issued, the data strcuture -representing the Tables- in Main Memory, is persisted to disk, in .csv format
+- Once a COMMIT is issued, the data structure -representing the Tables- in Main Memory, is persisted to disk, in .csv format
 - Your Log Sub-system, for which you must define its attributes and structure, will be in Main Memory and could be persisted to Disk, whenever you'd like, and using the format of your choice. You may want to think about this design aspect.
-- The strating program provided will provide more insight into how tasks are supposed to be executed
+- The starting program provided will give you more insight into how tasks are supposed to be executed
 
 # **Starting Code for Main Program (in Python)**
 A starting code written in Python is included in GitHub. Please notice that the transactions to the executed are randomly generated! Hence, if an exception would occur BEFORE you have managed to issue a COMMIT, your Database would most likely be in bad shape, and your Logging & Rollback Data Structure would be our only hope to restore your database to the proper level of integrity and stability.
@@ -92,9 +92,9 @@ A starting code written in Python is included in GitHub. Please notice that the 
 # **Designing the Logging & Rollback Sub-system**
 The design of the data structure -and its contents- for the Logging & Rollback sub-system is in your hands. You can choose any data structure that works for you. Having said that, the material covered in class -as well as the Class' Notes- should provide all the advice you need to design your solution.
 
-# ** Output and Documentation**
+# **Output and Documentation**
 - Output: your output should show the status of the DB Tables before and after every Transaction Block (see starting code). In addition, the status of your Log Sub-system should be presented, too
-- Documentation: in-line comments are accepted. Design decisions and data strcutures and processes descriptions, must be included in your report. Samples of your outputs, as described in the previous bullet point, should be included in your report.
+- Documentation: in-line comments are accepted. Design decisions and data structures and processes descriptions, must be included in your report. Samples of your outputs, as described in the previous bullet point, should be included in your report.
 
 # **Programming Language of Choice**
 Please select your language among those listed below:
