@@ -96,3 +96,13 @@ Please select your language among those listed below:
    - Python
    - Java
    - C/C++
+
+# **Submitting your work / Due Date**
+Due Date: DD/MM/YYYY at 11:59PM
+
+You could post your work three different ways:
+- Using this GitHub Repo (post your code to the folder "YourCode", OR
+- Using the D2L option available to all students, OR
+- Using both, the GitHub Repo and D2L
+
+Note: only **one** member of the team needs to post the work. Make sure all the names of the members of a team are clearly refrenced in your submission.
