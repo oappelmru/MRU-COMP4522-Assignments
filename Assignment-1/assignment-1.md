@@ -103,7 +103,7 @@ Please select your language among those listed below:
    - C/C++
 
 # **Submitting your work / Due Date**
-Due Date: **DD/MM/YYYY at 11:59PM**
+Due Date: **14/Feb/2023 at 11:59PM**
 
 You could post your work three different ways:
 - Using this GitHub Repo (kindly post your code to the folder "YourCode". This is the **preferred option**), or
