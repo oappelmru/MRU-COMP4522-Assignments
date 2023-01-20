@@ -98,10 +98,10 @@ Please select your language among those listed below:
    - C/C++
 
 # **Submitting your work / Due Date**
-Due Date: DD/MM/YYYY at 11:59PM
+Due Date: **DD/MM/YYYY at 11:59PM**
 
 You could post your work three different ways:
-- Using this GitHub Repo (post your code to the folder "YourCode", OR
+- Using this GitHub Repo (kindly post your code to the folder "YourCode". This is the **preferred option**), OR
 - Using the D2L option available to all students, OR
 - Using both, the GitHub Repo and D2L
 
