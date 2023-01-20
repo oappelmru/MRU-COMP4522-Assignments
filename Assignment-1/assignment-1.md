@@ -87,7 +87,7 @@ As you examine the diagram above, please consider the following:
 - The starting program provided will give you more insight into how tasks are supposed to be executed
 
 # **Starting Code for Main Program (in Python)**
-A starting code written in Python is included in GitHub. Please notice that the transactions to the executed are randomly generated! Hence, if an exception would occur BEFORE you have managed to issue a COMMIT, your Database would most likely be in bad shape, and your Logging & Rollback Data Structure would be our only hope to restore your database to the proper level of integrity and stability.
+A starting code written in Python is included in GitHub. There are **two Transaction Blocks**. The first one is supposed to succeed, and the secod one to fail! Hence, if an exception would occur BEFORE you have managed to issue a COMMIT, your Database would most likely be in bad shape, and your Logging & Rollback Data Structure would be your only hope to restore your database to the proper level of integrity and stability.
 
 # **Designing the Logging & Rollback Sub-system**
 The design of the data structure -and its contents- for the Logging & Rollback sub-system is in your hands. You can choose any data structure that works for you. Having said that, the material covered in class -as well as the Class' Notes- should provide all the advice you need to design your solution.
@@ -110,4 +110,4 @@ You could post your work three different ways:
 - Using the D2L option available to all students, or
 - Using both, the GitHub Repo and D2L
 
-Note: only **one** member of the team needs to post the work. Make sure all the names of the members of each team are clearly refrenced in your submission.
+Note: only **one** member of the team needs to post the work. Make sure all the names of the members of each team are clearly referenced in your submission.
