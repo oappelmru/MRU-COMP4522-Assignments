@@ -74,6 +74,17 @@ then you will be given 5 additional points for your work.
 
 You should print out the contents of your Logging & Rollback System as soon as an EXCEPTION is detected. If you prefer, you could make your data structure persistent by writing it to a file (this file MUST be different than the files that contain the Database Tables/Relations). The recommendation would be to use one file (.csv) per relation/table.
 
+# **Proposed Architecture**
+The architecture for this "simulation" is as follows:
+
+![RDBMS Architecture](arch01.png)
+
+As you examine the diagram above, please consider the following:
+
+- BLA
+- BLA
+- BLA
+
 # **Starting Code for Main Program (in Python)**
 A starting code written in Python is included in GitHub. Please notice that the transactions to the executed are randomly generated! Hence, if an exception would occur BEFORE you have managed to issue a COMMIT, your Database would most likely be in bad shape, and your Logging & Rollback Data Structure would be our only hope to restore your database to the proper level of integrity and stability.
 
