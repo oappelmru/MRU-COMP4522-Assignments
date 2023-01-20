@@ -101,8 +101,8 @@ Please select your language among those listed below:
 Due Date: **DD/MM/YYYY at 11:59PM**
 
 You could post your work three different ways:
-- Using this GitHub Repo (kindly post your code to the folder "YourCode". This is the **preferred option**), OR
-- Using the D2L option available to all students, OR
+- Using this GitHub Repo (kindly post your code to the folder "YourCode". This is the **preferred option**), or
+- Using the D2L option available to all students, or
 - Using both, the GitHub Repo and D2L
 
-Note: only **one** member of the team needs to post the work. Make sure all the names of the members of a team are clearly refrenced in your submission.
+Note: only **one** member of the team needs to post the work. Make sure all the names of the members of each team are clearly refrenced in your submission.
